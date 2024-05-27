@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "AdBlock BVI",
+    "version": "1.0.0",
+    "permissions": [
+        "declarativeNetRequest","webRequest", "webRequestBlocking", "<all_urls>"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
+}

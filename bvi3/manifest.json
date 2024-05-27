@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "AdBlock BVI",
+    "version": "1.0.0",
+    "permissions": [
+        "declarativeNetRequest", "webRequest", "webRequestBlocking"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icons/logo_16x16.png",
+            "48": "icons/logo_48x48.png",
+            "128": "icons/logo_128x128.png"
+        }
+    }
+}
